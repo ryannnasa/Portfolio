@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Mon portfolio</title>
+    <meta type="description" content="Voici mon portfolio de Développeur Fullstack">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<link rel="stylesheet" href="styles/styles.css" type="text/css">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+
+<body>
+    <header>
+        <div class="boxed">
+            <div class="flex aligncenter space-between">
+                <button onclick="OpenMenu()" class="header-menu-mobile">
+                    <span class="material-icons">menu</span>
+                </button>
+                <a href="#accueil" class="header-logo">
+                    <img src="img/mon-logo.png">
+                </a>
+                <ul class="header-menu">
+                    <li><a href="#accueil">Accueil</a></li>
+                    <li><a href="#a-propos">À Propos</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#realisations">Réalisations</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+<div id="accueil" class="slider">    
+    <img src="img/slider.png" class="slider-background">
+        <div class="slider-content">
+            <h1>Maxime Robin</h1>
+            <p>Développeur Fullstack</p>
+        </div>
+</div>
+
+<div id="a-propos" class="section">
+    <div class="photoprofil">
+        <img src="img/photoprofil.png">
+    </div>
+    <div class="boxed">
+        <div class="flex tocolumn mcenter">
+            <div class="w40 wm100">
+                <h2>À propos de moi</h2>
+            </div>
+            <div class="w60 wm100">
+                <p>Basé à Nantes, je me lance dans une formation pour devenir Développeur FullStack pour la période 2024/2025. Passionné par le numérique depuis mon enfance, je suis à la recherche de nouveaux défis dans ce domaine afin de contribuer à des projets d'envergure au sein d'une équipe dynamique. Mon parcours éclectique, allant de musicien professionnel à animateur social, m'a permis de développer des compétences nécessaires pour ce domaine telles que la polyvalence, la motivation et l'autodidaxie.</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="competences" class="section dark">
+    <div class="boxed text-center">
+        <h2>Découvrez mes Compétences</h2>
+        <div class="flex tocolumn gap20">
+            <div class="w25 wm100 skill">
+                <img src="img/html-logo.png">
+                <h3>HTML</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/css-logo.png">
+                <h3>CSS</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/js-logo.png">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="w25 wm100 skill">
+                <img src="img/wordpress.png">
+                <h3>Wordpress</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="realisations" class="section">
+    <div class="boxed text-center">
+        <h2>Mes Réalisations</h2>
+        <div class="flex wrap gap20 space-between">
+            <div class="w32 wm100 realisation monmarcheortho">
+                <a href="https://monmarcheortho.fr/" target="_blank">
+                    <img src="img/monmarcheortho.png">
+                    <h3>Mon Marché Ortho</h3>
+                </a>
+            </div>
+            <div class="w32 wm100 realisation">
+                <a href="https://ryannnasa.github.io/Portfolio">
+                    <img src="img/monlogofond.png">
+                    <h3>Mon Portfolio</h3>
+                </a>
+            </div>
+            <div class="w32 wm100 realisation">
+                <a href="/">
+                    <img src="img/creation.jpeg">
+                    <h3>Max Adams</h3>
+                </a>
+            </div>
+        </div>        
+    </div>
+</div>
+
+<div id="contact" class="section dark">
+    <div class="boxed text-center">
+        <h2>Contactez-moi</h2>
+        <div class="space-between flex">
+            <div class="contact w32 wm100">
+            <span class="material-icons icon">mail</span>
+            <span class="label">E-MAIL</span>
+            <span class="value">maxime.robin44@yahoo.fr</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<script src="js/app.js"></script>
+</html>
